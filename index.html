@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets the character encoding (usually leave this as UTF-8) -->
+  <meta charset="UTF-8">
+
+  <!-- Makes the page render properly in Internet Explorer (you can leave this alone) -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Ensures the page scales correctly on phones and tablets (important for mobile responsiveness) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- If you want to change the font, replace the URL with another font link from https://fonts.google.com -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts: this imports the "Poppins" font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons (for GitHub, LinkedIn, email icons, etc.) -->
+  <!-- Leave this unless you want to remove or replace icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- This connects your custom CSS file -->
+  <!-- If you rename styles.css, make sure to update this link -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- This is the page title that shows up in the browser tab -->
+  <title>Kira Nichtawitz's Portfolio</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <!-- Change to your own name or logo -->
+      <a href="/">Kira Luna Nichtawitz</a>
+    </div>
+
+    <div class="right">
+      <!-- Change the text "Github" if you want to rename it -->
+      <a href="https://github.com/LunaMoon1507" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="www.linkedin.com/in/kira-luna-nichtawitz" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:kiraluna1@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Everything below <main> is your main content sections (Profile, Skills, Projects, etc.) -->
+
+    <!-- SECTION 1: Profile -->
+    <section id = "profile" class="profile-section">
+      <div class="text">
+        <h2>Hi, I'm Kira Luna Nichtawitz 👋</h2>
+        <p>I'm a first year at the University of Florda, majoring in Computer Science at the College of Engineering. Welcome to my portfolio!</p>
+
+        <!-- what lines would go where the question marks are to make them link to different sections? -->
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#projects">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#experience">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- replace this image with an image of you that has a clear view of your face -->
+      <div class="headshot">
+        <img src="images/Kira-senior-portrait.jpg" alt="Kira Nichtawitz graduation headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <br>
+      <h3>Coding Languages</h3>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/Java-logo.png"/>
+          <span>Java</span>
+        </div>
+        <div class="cell">
+          <img src="images/Python-logo.png"/>
+          <span>Python</span>
+        </div>
+        <div class="cell">
+          <img src="images/C-plus-plus-logo.png"/>
+          <span>C++</span>
+        </div>
+        <div class="cell">
+          <img src="images/html-logo.webp"/>
+          <span>HTML</span>
+        </div>
+      </div>
+        
+      <br>
+      <h3>Foreign Languages</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/English-logo.png"/>
+            <span>English (fluent)</span>
+          </div>
+          <div class="cell">
+            <img src="images/Spanish-icon.png"/>
+            <span>Spanish (proficient)</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Interpersonal</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/Team-leader.png"/>
+            <span>Team leadership</span>
+          </div>
+          <div class="cell">
+            <img src="images/customer-service-icon.png"/>
+            <span>Customer service</span>
+          </div>
+          <div class="cell">
+            <img src="images/Conflict-resolution.png"/>
+            <span>Conflict resolution</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Technology</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/web-building.png"/>
+            <span>Website building</span>
+          </div>
+          <div class="cell">
+            <img src="images/3D-printing.png"/>
+            <span>3D printing/modeling</span>
+          </div>
+          <div class="cell">
+            <img src="images/graphic-design.png"/>
+            <span>Graphic design</span>
+          </div>
+          <div class="cell">
+            <img src="images/game-design.png"/>
+            <span>2D and VR Game design</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Physical</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/sewing-icon.png"/>
+            <span>Sewing</span>
+          </div>
+          <div class="cell">
+            <img src="images/Gymnastics-icon.png"/>
+            <span>Gymnastics</span>
+          </div>
+          <div class="cell">
+            <img src="images/writing-icon.png"/>
+            <span>Writing</span>
+          </div>
+          <div class="cell">
+            <img src="images/acting-icon.png"/>
+            <span>Acting</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEW SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project 1</h3>
+            <div class="tags">
+              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            Description
+          </p>
+          <div class="actions">
+            <!-- put links to videos of project demos and github repos below! -->
+            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project 2</h3>
+            <div class="tags">
+              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            Description
+          </p>
+          <div class="actions">
+            <!-- put links to videos of project demos and github repos below! -->
+            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project 3</h3>
+            <div class="tags">
+              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            Description
+          </p>
+          <div class="actions">
+            <!-- put links to videos of project demos and github repos below! -->
+            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Experience -->
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+      <div class="experience-item">
+        <h3>Position 1</h3>
+        <p><em>Month Year</em></p>
+        <p>Description</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Position 2</h3>
+        <p><em>Month Year</em></p>
+        <p>Description</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Position 3</h3>
+        <p><em>Month Year</em></p>
+        <p>Description</p>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Feel free to reach out with questions, collaborations, or just to connect!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer navigation bar: Needs to be formatted!-->
+  <header class="main-header"> 
+    <div class="left">
+      <a href="/">Home</a>
+    </div>
+    <ul class="main-nav">
+      <li><a href="https://github.com/LunaMoon1507" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/kira-luna-nichtawitz" target="_blank">Linkedin</a></li>
+      <li><a href="mailto:kiraluna1@gmail.com" target="_blank">Email</a></li>
+    </ul>
+  </header>
+
+</body>
+</html>
