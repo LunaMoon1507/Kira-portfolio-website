@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Sets the character encoding (usually leave this as UTF-8) -->
   <meta charset="UTF-8">
-
-  <!-- Makes the page render properly in Internet Explorer (you can leave this alone) -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- Ensures the page scales correctly on phones and tablets (important for mobile responsiveness) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- If you want to change the font, replace the URL with another font link from https://fonts.google.com -->
@@ -16,14 +11,12 @@
     <!-- Google Fonts: this imports the "Poppins" font family -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome icons (for GitHub, LinkedIn, email icons, etc.) -->
-  <!-- Leave this unless you want to remove or replace icons -->
+  <!-- Font icons (for GitHub, LinkedIn, email icons, etc.) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- This connects your custom CSS file -->
-  <!-- If you rename styles.css, make sure to update this link -->
+  <!-- This connects the custom CSS file -->
   <link rel="stylesheet" href="styles.css">
 
   <!-- This is the page title that shows up in the browser tab -->
@@ -36,11 +29,10 @@
   <nav>
     <div class="left">
       <!-- Change to your own name or logo -->
-      <a href="/">Kira Luna Nichtawitz</a>
+      <a href="/">Kira Luna</a>
     </div>
 
     <div class="right">
-      <!-- Change the text "Github" if you want to rename it -->
       <a href="https://github.com/LunaMoon1507" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-github"></i>
         <span>Github</span>
@@ -65,9 +57,8 @@
     <section id = "profile" class="profile-section">
       <div class="text">
         <h2>Hi, I'm Kira Luna Nichtawitz 👋</h2>
-        <p>I'm a first year at the University of Florda, majoring in Computer Science at the College of Engineering. Welcome to my portfolio!</p>
+        <p>I'm a first year at the University of Florda, majoring in Computer Science at the College of Engineering. <br> Welcome to my portfolio!</p>
 
-        <!-- what lines would go where the question marks are to make them link to different sections? -->
         <div class="links">
           <a href="#skills">
             <i class="fa-solid fa-code"></i>
@@ -81,7 +72,7 @@
           
           <a href="#experience">
             <i class="fa-solid fa-briefcase"></i>
-            <span>Experience</span>
+            <span>Job Experience</span>
           </a>
           
           <a href="#contact">
@@ -91,7 +82,6 @@
         </div>
       </div>
 
-      <!-- replace this image with an image of you that has a clear view of your face -->
       <div class="headshot">
         <img src="images/Kira-senior-portrait.jpg" alt="Kira Nichtawitz graduation headshot">
       </div>
@@ -121,7 +111,7 @@
           <span>HTML</span>
         </div>
       </div>
-        
+      
       <br>
       <h3>Foreign Languages</h3>
         <div class="cells">
@@ -197,7 +187,7 @@
       </div>
     </section>
 
-    <!-- NEW SECTION 3: Projects -->
+    <!-- SECTION 3: Projects -->
     <section id="projects" class="projects-section">
       <h2>Projects</h2>
 
@@ -205,54 +195,52 @@
         <!-- Project Card 1 -->
         <article class="project-card">
           <div class="project-header">
-            <h3>Project 1</h3>
+            <h3>KiraGizmos website building</h3>
             <div class="tags">
-              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+              <span>HTML/CSS</span><span>VS Code</span><span>GitHub</span><span>NameSilo</span>
             </div>
           </div>
           <p class="project-desc">
-            Description
+            A website built for the Etsy shop KiraGizmos, which specializes in 3D printing.
           </p>
           <div class="actions">
-            <!-- put links to videos of project demos and github repos below! -->
-            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="http://kiragizmos.com/" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+            <a href="https://github.com/LunaMoon1507/KiraGizmosSite" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
           </div>
         </article>
 
         <!-- Project Card 2 -->
         <article class="project-card">
           <div class="project-header">
-            <h3>Project 2</h3>
+            <h3>Java CYOA interactive story</h3>
             <div class="tags">
-              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+              <span>Java</span><span>VS Code</span><span>GitHub</span>
             </div>
           </div>
           <p class="project-desc">
-            Description
+            A custom text interface Choose-Your-Own-Adventure story written with Java.
           </p>
           <div class="actions">
-            <!-- put links to videos of project demos and github repos below! -->
-            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://codehs.com/sandbox/kiralunamoon/island-adventure-cyoa-app/run" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Try it</a>
+            <a href="https://github.com/LunaMoon1507/Island-Story-CYOA" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
           </div>
         </article>
 
         <!-- Project Card 3 -->
         <article class="project-card">
           <div class="project-header">
-            <h3>Project 3</h3>
+            <h3>Conway’s Game of Life program</h3>
             <div class="tags">
-              <span>Tool 1</span><span>Tool 2</span><span>Tool 3</span>
+              <span>C++</span><span>GitHub</span><span>CLion</span>
             </div>
           </div>
           <p class="project-desc">
-            Description
+            An interactive digital rendition of the famous Conway's Game of Life for a school project.
           </p>
           <div class="actions">
-            <!-- put links to videos of project demos and github repos below! -->
-            <a href="#" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-            <a href="#" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+            <!-- Put link to project demo below! -->
+            <a href="#" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> ADD DEMO</a>
+            <a href="https://github.com/COP3504CFall2025/p0-conways-LunaMoon1507" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
           </div>
         </article>
       </div>
@@ -260,24 +248,39 @@
 
     <!-- SECTION 4: Experience -->
     <section id="experience" class="experience-section">
-      <h2>Experience</h2>
+      <h2>Job Experience</h2>
 
       <div class="experience-item">
-        <h3>Position 1</h3>
-        <p><em>Month Year</em></p>
-        <p>Description</p>
+        <h3>KiraGizmos 3D Printing Owner/Manager</h3>
+        <p><em>June 2020-May 2025</em></p>
+        <p>• Founded, owned, and managed my own 3D printing business on Etsy since the quarantine summer of 8th grade, including producing, packing, and shipping assorted products to customers globally.
+        <br>• Handled customer service, production, packaging, marketing, and finances; also worked with a co-owner/production partner that I contracted to offload some production and increase supply.
+        <br>• Donated several hundred dollars in profits to nonprofit organizations, including The Water Project, Against Malaria Foundation, and Project Scientist.
+        </p>
       </div>
 
       <div class="experience-item">
-        <h3>Position 2</h3>
-        <p><em>Month Year</em></p>
-        <p>Description</p>
+        <h3>GRIT60 Fitness Weston: Front Desk, Studio Manager, and CTO</h3>
+        <p><em>June 2022-June 2025</em></p>
+        <p>• Worked in part-time employment with GRIT60 Fitness, a local H.I.I.T. gym, operating the front desk as well as covering customer service, IT, management, scheduling, sales, logistics, Spanish/English translation, and more.
+        <br>• Appointed the Chief Technology Officer after taking over IT, managing online systems, and digital phone lines to increase company-wide efficiency.
+        </p>
       </div>
 
       <div class="experience-item">
-        <h3>Position 3</h3>
-        <p><em>Month Year</em></p>
-        <p>Description</p>
+        <h3>Rockwell Health: Graphic Designer</h3>
+        <p><em>June 2025-Present</em></p>
+        <p>• Creating marketing materials and presentations for Annika Rockwell, a Nutritionist and Dietitian with a private health practice.
+        <br>• Designed an organization system for several hundred-plus slide decks, allowing for easy and seamless navigation. Implemented this solution across Rockwell Health, facilitating nutrition consultations and improving user experiences.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Meta, Rec Room, and Techsmith: Research and Beta Testing Studies</h3>
+        <p><em>2021-Present</em></p>
+        <p>• Participating in research and beta testing studies through periodic paid surveys and live web interviews for various video game and technology companies wanting feedback for a virtual or physical experience.
+        <br>• Providing user experience information, suggestions, and feedback for current and beta software, as well as hardware. Aiding in various improvements to user experiences for assorted companies.
+        </p>
       </div>
     </section>
 
@@ -287,7 +290,7 @@
 
       <div class="group">
         <div class="text">
-          Feel free to reach out with questions, collaborations, or just to connect!
+          Feel free to reach out to me with any questions, job/internship opportunities, or just to connect! I'll try to get back to you as soon as I can.
         </div>
 
         <form>
@@ -306,12 +309,9 @@
     </section>
   </main>
 
-  <!--Footer navigation bar: Needs to be formatted!-->
   <header class="main-header"> 
-    <div class="left">
-      <a href="/">Home</a>
-    </div>
     <ul class="main-nav">
+      <a href="/">Home</a>
       <li><a href="https://github.com/LunaMoon1507" target="_blank">Github</a></li>
       <li><a href="https://www.linkedin.com/in/kira-luna-nichtawitz" target="_blank">Linkedin</a></li>
       <li><a href="mailto:kiraluna1@gmail.com" target="_blank">Email</a></li>
