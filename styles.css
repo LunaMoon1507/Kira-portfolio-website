@@ -33,7 +33,7 @@ section {
 
 /* HEADER */
 
-.main-header {
+.main-footer {
   background-color: #151515;
   padding: 10px 50px;
   display: flex;
@@ -42,18 +42,18 @@ section {
   gap: 10px;
 }
 
-.main-header a {
+.main-footer a {
   color: #ffffff;
   text-decoration: none;
   margin: 0 30px; 
 }
 
-.main-header a:hover {
+.main-footer a:hover {
   text-decoration: underline;
 }
 
 @media (min-width: 1025px) {
-  .main-header {
+  .main-footer {
     flex-direction: row;
     justify-content: space-around; 
     gap: 30px;
